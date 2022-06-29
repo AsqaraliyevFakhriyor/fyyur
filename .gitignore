@@ -1,0 +1,12 @@
+
+# python pycache file
+__pycache__/
+
+# virtual env
+venv/
+
+# enviromental variables
+.env
+
+# error files
+error.log
