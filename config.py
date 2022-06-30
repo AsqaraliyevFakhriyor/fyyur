@@ -6,11 +6,11 @@ SECRET_KEY = os.urandom(32)
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 # Enable debug mode.
-DEBUG = os.env.get("DEBUG")
+DEBUG = os.environ.get("DEBUG")
 # Connect to the database
 
 # TRACK modificitaion
-SQLALCHEMY_TRACK_MODIFICATIONS = os.env.get("SQLALCHEMY_TRACK_MODIFICATIONS")
+SQLALCHEMY_TRACK_MODIFICATIONS = os.environ.get("SQLALCHEMY_TRACK_MODIFICATIONS")
 
 # TODO IMPLEMENT DATABASE URL
-SQLALCHEMY_DATABASE_URI = os.env.get("DATABASE_URL")
+SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
